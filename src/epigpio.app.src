@@ -1,0 +1,17 @@
+{application, epigpio,
+ [{description, "Erlang server using pigpio deamon to access Raspberry Pi GPIOs"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { epigpio_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    lager
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
